@@ -192,7 +192,7 @@
 
                 function sendPlaceId(){
                     //,rating,reviews add them
-                    fetch('https://maps.googleapis.com/maps/api/place/details/json?placeid='+idValue+'&fields=name&key=AIzaSyAFizBEUx5OMVcOY2-6dIV0JsTiWBnDxsk')
+                    fetch('https://maps.googleapis.com/maps/api/place/details/json?placeid='+idValue+'&fields=name&key=XXXXXXXXXXXXXXXXXXXXXX')
                     .then(res => res.json())
                     .then((out) => {
                         console.log('Reviews: ', out);
@@ -253,7 +253,7 @@
 
                 <!-- LOADING MAP -->
                 <!-- <div id="map"></div>
-                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSWZCa4y3UiYH-lAw5NqQs4NUDtXQALD4&libraries=places&callback=initMap" async defer></script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXXXXXXXXXXXXX&libraries=places&callback=initMap" async defer></script>
                 -->
                 <h1 id="placeName"> </h1>
 
